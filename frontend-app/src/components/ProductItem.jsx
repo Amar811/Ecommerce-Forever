@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const ProductItem = ({ _id, image, name, price }) => {  
-
+  console.log({ _id, image, name, price }); // Log the props
   const { currency } = useContext(ShopContext);
 
   return (
